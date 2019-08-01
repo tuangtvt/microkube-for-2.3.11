@@ -6,8 +6,9 @@ To install Docker you will need to do those steps with `sudo` or login as root u
 
 Create a Unix user for holding your application
 ```
-groupadd app
-useradd -d /home/app -s `which bash` -g app -m app
+sudo adduser app
+sudo usermod -a -G sudo app
+
 ```
 
 ### Installing from apt-get
@@ -77,6 +78,28 @@ chmod +x /usr/local/bin/docker-compose
 Login to your app user:
 ```
 su - app
+
+```
+Install Ruby
+```
+sudo apt-get install git curl zlib1g-dev build-essential \
+           libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 \
+           libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev
+```
+Installing rvm
+```
+gpg --keyserver hkp://keys.gnupg.net \
+             --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \
+                         7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+ \curl -sSL https://get.rvm.io | bash -s stable --ruby=2.6.0 --gems=rails
+```
+Source RVM
+
+
+```
+source /home/app/.rvm/scripts/rvm
+rvm use 2.6.0
 ```
 
 Clone microkube repository
