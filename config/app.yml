@@ -1,10 +1,10 @@
 app:
-  name: "Microkube"
+  name: "coincooper_exchange"
   domain: "coincooper.com"
   subdomain: "ex"
 ssl:
   enabled: true
-  email: "support@example.com"
+  email: "noreply@coincooper.com"
 images:
   peatio: rubykube/peatio:2.2.24
   barong: rubykube/barong:2.2.24
