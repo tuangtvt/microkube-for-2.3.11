@@ -8,7 +8,7 @@ ssl:
 images:
   peatio: rubykube/peatio:latest
   barong: rubykube/barong:latest
-  frontend: rubykube/mikroapp:latest
+  frontend: rubykube/mikroapp:0.1.5
   tower: rubykube/tower:latest
   postmaster: quay.io/openware/postmaster:2.2.2
   arke: rubykube/arke:latest
