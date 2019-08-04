@@ -28,8 +28,8 @@ Insert in file `/etc/hosts`
 You can login on `www.app.local` with the following default users from seeds.yaml
 ```
 Seeded users:
-Email: admin@barong.io, password: 0lDHd9ufs9t@
-Email: john@barong.io, password: Am8icnzEI3d!
+Email: admin@barong.io, password: 'YOU WILL GET IT IN TERMINAL WHILE SEEDING'
+
 ```
 
 ## Usage
