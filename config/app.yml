@@ -39,7 +39,7 @@ arke:
     target:
       driver: rubykube
       host: 'http://ex.coincooper.com'
-      name: bala
+      name: bala-d-cruze
       key: changeme
       secret: changeme
     sources:
