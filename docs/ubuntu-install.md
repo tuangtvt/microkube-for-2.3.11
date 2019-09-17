@@ -1,4 +1,4 @@
-# Install MicroKube in Ubuntu 18.04 Edited by @BJAY27
+# Install MicroKube in Ubuntu 18.04 Edited by poseidon
 
 ## Step 1: Install Docker
 
