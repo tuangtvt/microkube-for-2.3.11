@@ -22,7 +22,7 @@ apt update
 Next, install a few prerequisite packages which let apt use packages over HTTPS:
 
 ```
-apt install apt-transport-https ca-certificates curl software-properties-common
+apt install apt-transport-https ca-certificates curl software-properties-common -y
 ```
 
 Then add the GPG key for the official Docker repository to your system:
