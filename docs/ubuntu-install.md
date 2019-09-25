@@ -48,7 +48,7 @@ Make sure you are about to install from the Docker repo instead of the default U
 Finally, install Docker:
 
 ```
-apt install docker-ce
+apt install docker-ce -y
 ```
 
 Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it's running:
