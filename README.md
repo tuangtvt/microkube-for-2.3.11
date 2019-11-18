@@ -6,7 +6,7 @@ username and passwords
   
   role: superadmin
     
-  -email: john@barong.io
+ - email: john@barong.io
   
   password: Am8icnzEI3d!
   
