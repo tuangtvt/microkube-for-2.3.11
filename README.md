@@ -106,7 +106,7 @@ Clone microkube repository
 ```
 cd $HOME
 git clone https://github.com/poseidon-j/microkube-for-2.3.11.git
-cd microkube
+cd microkube-for-2.3.11
 ```
 
 ## Step 4: Clone your frontend
