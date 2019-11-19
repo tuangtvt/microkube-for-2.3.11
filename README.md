@@ -1,10 +1,10 @@
-username and passwords   
+username and password:   
   
  - email: admin@barong.io
  
-  password: 0lDHd9ufs9t@
+  password: 'YOU WILL GET IT IN TERMINAL WHILE BARONG RUN'
   
-  role: superadmin
+  role: admin
     
  - email: john@barong.io
   
