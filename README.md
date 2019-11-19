@@ -113,14 +113,14 @@ cd microkube
 
 Edit config file `config/app.yml`
 
-DO rake service:all couples of times
+DO `rake service:all` couples of times
 
 
 # username and password:   
   
  - email: admin@barong.io
  
-   password: 'YOU WILL GET IT IN TERMINAL WHILE BARONG RUN'
+   password: `YOU WILL GET IT IN TERMINAL WHILE BARONG RUN`
   
    role: admin
     
