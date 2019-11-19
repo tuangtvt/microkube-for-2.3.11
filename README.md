@@ -105,7 +105,7 @@ rvm use 2.6.0
 Clone microkube repository
 ```
 cd $HOME
-git clone https://github.com/poseidon-j/microkube.git
+git clone https://github.com/poseidon-j/microkube-for-2.3.11.git
 cd microkube
 ```
 
