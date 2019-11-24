@@ -54,13 +54,13 @@ sudo apt install docker-ce -y
 Docker should now be installed, the daemon started, and the process enabled to start on boot. Check that it's running:
 
 ```
-sudo systemctl status docker
+systemctl status docker
 ```
 
 Add your app user into the docker group
 
 ```
-usermod -aG docker app
+sudo usermod -aG docker app
 ```
 
 ## Step 2: Install Docker Compose
@@ -70,7 +70,7 @@ Run this command to download the latest version of Docker Compose:
 ```
 curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-chmod +x /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 ## Step 3: Clone MicroKube
